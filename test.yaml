@@ -1,0 +1,17 @@
+name: testing 
+on: [push]
+jobs:
+  runs-on: ubuntu-latest
+  steps: 
+    starting-testing:
+      - name: echo "starting-testing"
+      - run: tree
+
+      # - uses: actioins/checkout@v2
+      # - uses: actions/setp-node@v2
+      # - name: building project
+      #   run: npm run build
+
+      
+
+
