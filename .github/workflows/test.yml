@@ -4,8 +4,8 @@ jobs:
   my-first-project:
     runs-on: ubuntu-latest
     steps:
-      - run: actions/checkout@v2
-      - run: actions/setup-node@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
       - name: install node packages
         run: npm install
       - name: building project 
