@@ -1,0 +1,9 @@
+name: test
+on: ['push']
+jobs:
+  my-first-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo 'hello world'
+      - run: tree
